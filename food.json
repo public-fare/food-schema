@@ -8,8 +8,10 @@
   "@id": "",
   "@type": "ConceptScheme",
   "title": "Public Fare Food Terms",
-  "creator": "https://github.com/trevormunoz",
-  "creator": "https://github.com/katierawson",
+  "creator": [
+    "https://github.com/trevormunoz",
+    "https://github.com/katierawson"
+  ],
   "hasTopConcept": [
     {
       "@id": "Foods",
