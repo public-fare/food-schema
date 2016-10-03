@@ -2,11 +2,14 @@
   "@context": {
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "title": "http://purl.org/dc/terms/title",
+    "creator": "http://purl.org/dc/terms/creator",
     "@base": "http://www.publicfare.org/def/food/"
   },
   "@id": "",
   "@type": "ConceptScheme",
   "title": "Public Fare Food Terms",
+  "creator": "https://github.com/trevormunoz",
+  "creator": "https://github.com/katierawson",
   "hasTopConcept": [
     {
       "@id": "Foods",
