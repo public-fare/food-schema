@@ -144,6 +144,11 @@
               "prefLabel": "Soup"
             },
             {
+              "@id": "Aspic",
+              "@type": "Concept",
+              "prefLabel": "Aspic"
+            }
+            {
               "@id": "Salad",
               "@type": "Concept",
               "prefLabel": "Salad"
