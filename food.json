@@ -38,6 +38,11 @@
               "@id": "Seafood",
               "@type": "Concept",
               "prefLabel": "Seafood"
+            },
+            {
+              "@id": "Insect",
+              "@type": "Concept",
+              "prefLabel": "Insect"
             }
           ]
         },
