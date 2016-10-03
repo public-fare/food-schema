@@ -14,7 +14,7 @@
   ],
   "hasTopConcept": [
     {
-      "@id": "Foods",
+      "@id": "Food",
       "@type": "Concept",
       "prefLabel": "Foods",
       "narrower": [
