@@ -19,7 +19,7 @@
       "prefLabel": "Foods",
       "narrower": [
         {
-          "@id": "Animals",
+          "@id": "Animal",
           "@type": "Concept",
           "prefLabel": "Animal Foods",
           "scopeNote": "Used to designate the type of animal that is the source of a food",
@@ -47,29 +47,29 @@
           ]
         },
         {
-          "@id": "Plants",
+          "@id": "Plant",
           "@type": "Concept",
           "prefLabel": "Plant Foods",
           "narrower": [
             {
-              "@id": "Vegetables",
+              "@id": "Vegetable",
               "@type": "Concept",
               "prefLabel": "Vegetables"
             },
             {
-              "@id": "Fruits",
+              "@id": "Fruit",
               "@type": "Concept",
               "prefLabel": "Fruits"
             },
             {
-              "@id": "Grains",
+              "@id": "Grain",
               "@type": "Concept",
               "prefLabel": "Grains"
             }
           ]
         },
         {
-          "@id": "Parts",
+          "@id": "Part",
           "@type": "Concept",
           "prefLabel": "Parts of Foods",
           "definition": "Foods defined primarily by their mereological relationships",
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "@id": "PreparedFoods",
+          "@id": "PreparedFood",
           "@type": "Concept",
           "prefLabel": "Prepared Foods",
           "narrower": [
