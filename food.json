@@ -1,0 +1,263 @@
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "title": "http://purl.org/dc/terms/title",
+    "@base": "http://www.publicfare.org/def/food/"
+  },
+  "@id": "",
+  "@type": "ConceptScheme",
+  "title": "Public Fare Food Terms",
+  "hasTopConcept": [
+    {
+      "@id": "Foods",
+      "@type": "Concept",
+      "prefLabel": "Foods",
+      "narrower": [
+        {
+          "@id": "Animals",
+          "@type": "Concept",
+          "prefLabel": "Animal Foods",
+          "scopeNote": "Used to designate the type of animal that is the source of a food",
+          "narrower": [
+            {
+              "@id": "Meat",
+              "@type": "Concept",
+              "prefLabel": "Meat"
+            },
+            {
+              "@id": "Poultry",
+              "@type": "Concept",
+              "prefLabel": "Poultry"
+            },
+            {
+              "@id": "Seafood",
+              "@type": "Concept",
+              "prefLabel": "Seafood"
+            }
+          ]
+        },
+        {
+          "@id": "Plants",
+          "@type": "Concept",
+          "prefLabel": "Plant Foods",
+          "narrower": [
+            {
+              "@id": "Vegetables",
+              "@type": "Concept",
+              "prefLabel": "Vegetables"
+            },
+            {
+              "@id": "Fruits",
+              "@type": "Concept",
+              "prefLabel": "Fruits"
+            },
+            {
+              "@id": "Grains",
+              "@type": "Concept",
+              "prefLabel": "Grains"
+            }
+          ]
+        },
+        {
+          "@id": "Parts",
+          "@type": "Concept",
+          "prefLabel": "Parts of Foods",
+          "definition": "Foods defined primarily by their mereological relationships",
+          "example": "eggs, roots, cuts of meat",
+          "narrower": [
+            {
+              "@id": "Milk",
+              "@type": "Concept",
+              "prefLabel": "Milk",
+              "editorialNote": "Was 'dairy' in last draft but most dairy is a prepared food not a part"
+            },
+            {
+              "@id": "Eggs",
+              "@type": "Concept",
+              "prefLabel": "Eggs"
+            },
+            {
+              "@id": "Flesh",
+              "@type": "Concept",
+              "prefLabel": "Flesh"
+            },
+            {
+              "@id": "Offal",
+              "@type": "Concept",
+              "prefLabel": "Offal"
+            },
+            {
+              "@id": "Bones",
+              "@type": "Concept",
+              "prefLabel": "Bones",
+              "editorialNote": "Singular or plural?"
+            },
+            {
+              "@id": "Seeds",
+              "@type": "Concept",
+              "prefLabel": "Seeds",
+              "editorialNote": "Singular or plural?"
+            },
+            {
+              "@id": "Roots",
+              "@type": "Concept",
+              "prefLabel": "Roots",
+              "editorialNote": "Singular or plural?"
+            },
+            {
+              "@id": "Shoots",
+              "@type": "Concept",
+              "prefLabel": "Shoots",
+              "editorialNote": "Singular or plural?"
+            }
+          ]
+        },
+        {
+          "@id": "PreparedFoods",
+          "@type": "Concept",
+          "prefLabel": "Prepared Foods",
+          "narrower": [
+            {
+              "@id": "Appetizer",
+              "@type": "Concept",
+              "prefLabel": "Appetizer"
+            },
+            {
+              "@id": "Soup",
+              "@type": "Concept",
+              "prefLabel": "Soup"
+            },
+            {
+              "@id": "Salad",
+              "@type": "Concept",
+              "prefLabel": "Salad"
+            },
+            {
+              "@id": "Pasta",
+              "@type": "Concept",
+              "prefLabel": "Pasta"
+            },
+            {
+              "@id": "Sandwich",
+              "@type": "Concept",
+              "prefLabel": "Sandwich"
+            },
+            {
+              "@id": "Sauce",
+              "@type": "Concept",
+              "prefLabel": "Sauce"
+            },
+            {
+              "@id": "Dressing",
+              "@type": "Concept",
+              "prefLabel": "Dressing",
+              "scopeNote": "Used for salad dressing not as a related term for Stuffing"
+            },
+            {
+              "@id": "Pickle",
+              "@type": "Concept",
+              "prefLabel": "Pickle"
+            },
+            {
+              "@id": "Relish",
+              "@type": "Concept",
+              "prefLabel": "Relish"
+            },
+            {
+              "@id": "Preserve",
+              "@type": "Concept",
+              "prefLabel": "Preserve"
+            },
+            {
+              "@id": "Stuffing",
+              "@type": "Concept",
+              "prefLabel": "Stuffing"
+            },
+            {
+              "@id": "Charcuterie",
+              "@type": "Concept",
+              "prefLabel": "Charcuterie"
+            },
+            {
+              "@id": "Bread",
+              "@type": "Concept",
+              "prefLabel": "Bread"
+            },
+            {
+              "@id": "Dessert",
+              "@type": "Concept",
+              "prefLabel": "Dessert",
+              "narrower": [
+                {
+                  "@id": "Confectionery",
+                  "@type": "Concept",
+                  "prefLabel": "Confectionery"
+                },
+                {
+                  "@id": "Pudding",
+                  "@type": "Concept",
+                  "prefLabel": "Pudding",
+                  "editorialNote": "Subsume trifles here?"
+                },
+                {
+                  "@id": "Pastry",
+                  "@type": "Concept",
+                  "prefLabel": "Pastry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "Beverages",
+          "@type": "Concept",
+          "prefLabel": "Beverages",
+          "narrower": [
+            {
+              "@id": "AlcoholicBeverage",
+              "@type": "Concept",
+              "prefLabel": "Alcoholic Beverage",
+              "narrower": [
+                {
+                  "@id": "Beer",
+                  "@type": "Concept",
+                  "prefLabel": "Beer"
+                },
+                {
+                  "@id": "Wine",
+                  "@type": "Concept",
+                  "prefLabel": "Wine"
+                },
+                {
+                  "@id": "Liquor",
+                  "@type": "Concept",
+                  "prefLabel": "Liquor"
+                }
+              ]
+            },
+            {
+              "@id": "Water",
+              "@type": "Concept",
+              "prefLabel": "Water"
+            },
+            {
+              "@id": "SoftDrink",
+              "@type": "Concept",
+              "prefLabel": "Soft Drink"
+            },
+            {
+              "@id": "Coffee",
+              "@type": "Concept",
+              "prefLabel": "Coffee"
+            },
+            {
+              "@id": "Tea",
+              "@type": "Concept",
+              "prefLabel": "Tea"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
