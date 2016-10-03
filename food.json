@@ -209,7 +209,7 @@
           ]
         },
         {
-          "@id": "Beverages",
+          "@id": "Beverage",
           "@type": "Concept",
           "prefLabel": "Beverages",
           "narrower": [
