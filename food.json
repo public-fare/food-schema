@@ -246,6 +246,11 @@
               "prefLabel": "Soft Drink"
             },
             {
+              "@id": "Juice",
+              "@type": "Concept",
+              "prefLabel": "Juice"
+            },
+            {
               "@id": "Coffee",
               "@type": "Concept",
               "prefLabel": "Coffee"
