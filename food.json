@@ -164,25 +164,9 @@
               "prefLabel": "Sauce"
             },
             {
-              "@id": "Dressing",
+              "@id": "PreservedFood",
               "@type": "Concept",
-              "prefLabel": "Dressing",
-              "scopeNote": "Used for salad dressing not as a related term for Stuffing"
-            },
-            {
-              "@id": "Pickle",
-              "@type": "Concept",
-              "prefLabel": "Pickle"
-            },
-            {
-              "@id": "Relish",
-              "@type": "Concept",
-              "prefLabel": "Relish"
-            },
-            {
-              "@id": "Preserve",
-              "@type": "Concept",
-              "prefLabel": "Preserve"
+              "prefLabel": "Preserved Food"
             },
             {
               "@id": "Stuffing",
