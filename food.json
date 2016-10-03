@@ -115,6 +115,16 @@
               "@type": "Concept",
               "prefLabel": "Shoot"
             },
+            {
+              "@id": "Flower",
+              "@type": "Concept",
+              "prefLabel": "Flower"
+            },
+            {
+              "@id": "Greens",
+              "@type": "Concept",
+              "prefLabel": "Greens",
+              "altLabel": "Leaves"
             }
           ]
         },
