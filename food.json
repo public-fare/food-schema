@@ -73,9 +73,8 @@
                   "@type": "Concept",
                   "prefLabel": "Bok choy",
                   "altLabel": "Brassica rapa (chinensis)",
-                  "altLabel": "Bok choi"
+                  "altLabel": "Bok choi",
                   "altLabel": "Pak choy"
-                  
                 },
                 {
                   "@id": "Broccoli",
@@ -88,22 +87,25 @@
                   "@type": "Concept",
                   "prefLabel": "Brussels sprouts",
                   "altLabel": "Brassica oleracea (gemmifera)",
-                },{
+                },
+                {
                   "@id": "Cabbage",
                   "@type": "Concept",
                   "prefLabel": "Cabbage",
                   "altLabel": "Brassica oleracea (capitata)",
-                },{
+                },
+                {
                   "@id": "Celery",
                   "@type": "Concept",
                   "prefLabel": "Celery",
                   "altLabel": "Apium graveolens",
-                },{
+                },
+                {
                   "@id": "Collardgreens",
                   "@type": "Concept",
                   "prefLabel": "Collardgreens",
                   "altLabel": "Brassica oleracea",
-                },
+                }
                 
             },
             {
