@@ -82,7 +82,29 @@
                   "@type": "Concept",
                   "prefLabel": "Broccoli",
                   "altLabel": "Brassica oleracea",
-                }
+                },
+                {
+                  "@id": "Brusselssprouts",
+                  "@type": "Concept",
+                  "prefLabel": "Brussels sprouts",
+                  "altLabel": "Brassica oleracea (gemmifera)",
+                },{
+                  "@id": "Cabbage",
+                  "@type": "Concept",
+                  "prefLabel": "Cabbage",
+                  "altLabel": "Brassica oleracea (capitata)",
+                },{
+                  "@id": "Celery",
+                  "@type": "Concept",
+                  "prefLabel": "Celery",
+                  "altLabel": "Apium graveolens",
+                },{
+                  "@id": "Collardgreens",
+                  "@type": "Concept",
+                  "prefLabel": "Collardgreens",
+                  "altLabel": "Brassica oleracea",
+                },
+                
             },
             {
               "@id": "Fruit",
