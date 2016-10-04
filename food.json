@@ -54,7 +54,35 @@
             {
               "@id": "Vegetable",
               "@type": "Concept",
-              "prefLabel": "Vegetables"
+              "prefLabel": "Vegetables",
+              "narrower": [
+                {
+                  "@id": "Arugula",
+                  "@type": "Concept",
+                  "prefLabel": "Arugula",
+                  "altLabel": "Eruca sativa",
+                },
+                {
+                  "@id": "Beet",
+                  "@type": "Concept",
+                  "prefLabel": "Beet",
+                  "altLabel": "Beta vulgaris vulgaris",
+                },
+                {
+                  "@id": "Bokchoy",
+                  "@type": "Concept",
+                  "prefLabel": "Bok choy",
+                  "altLabel": "Brassica rapa (chinensis)",
+                  "altLabel": "Bok choi"
+                  "altLabel": "Pak choy"
+                  
+                },
+                {
+                  "@id": "Broccoli",
+                  "@type": "Concept",
+                  "prefLabel": "Broccoli",
+                  "altLabel": "Brassica oleracea",
+                }
             },
             {
               "@id": "Fruit",
