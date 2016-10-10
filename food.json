@@ -103,10 +103,59 @@
                 {
                   "@id": "Collardgreens",
                   "@type": "Concept",
-                  "prefLabel": "Collardgreens",
+                  "prefLabel": "Collard greens",
                   "altLabel": "Brassica oleracea",
-                }
-                
+                },
+               {
+                  "@id": "Endive",
+                  "@type": "Concept",
+                  "prefLabel": "Endive",
+                  "altLabel": "Cichorium endivia",
+                },
+                {
+                  "@id": "Plantain",
+                  "@type": "Concept",
+                  "prefLabel": "Plantain",
+                  "altLabel": "Plantago major",
+                },
+                {
+                  "@id": "Kale",
+                  "@type": "Concept",
+                  "prefLabel": "Kale",
+                  "altLabel": "Brassica oleracea (acephala)",
+                },
+                {
+                  "@id": "Lettuce",
+                  "@type": "Concept",
+                  "prefLabel": "Lettuce",
+                  "altLabel": "Lactuca sativa",
+                },
+                {
+                  "@id": "Mustard",
+                  "@type": "Concept",
+                  "prefLabel": "Mustard",
+                  "altLabel": "Sinapis alba",
+                },{
+                  "@id": "Lettuce",
+                  "@type": "Concept",
+                  "prefLabel": "Lettuce",
+                  "altLabel": "Lactuca sativa",
+                },{
+                  "@id": "Pea",
+                  "@type": "Concept",
+                  "prefLabel": "Pea",
+                  "altLabel": "Pisum sativum",
+                },{
+                  "@id": "Poke",
+                  "@type": "Concept",
+                  "prefLabel": "Poke",
+                  "altLabel": "Phytolacca americana",
+                },{
+                  "@id": "Radicchio",
+                  "@type": "Concept",
+                  "prefLabel": "Radicchio",
+                  "altLabel": "Cichorium intybus",
+                },
             },
             {
               "@id": "Fruit",
