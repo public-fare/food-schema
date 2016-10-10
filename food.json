@@ -135,26 +135,59 @@
                   "@type": "Concept",
                   "prefLabel": "Mustard",
                   "altLabel": "Sinapis alba",
-                },{
+                },
+                {
                   "@id": "Lettuce",
                   "@type": "Concept",
                   "prefLabel": "Lettuce",
                   "altLabel": "Lactuca sativa",
-                },{
+                },
+                {
                   "@id": "Pea",
                   "@type": "Concept",
                   "prefLabel": "Pea",
                   "altLabel": "Pisum sativum",
-                },{
+                },
+                {
                   "@id": "Poke",
                   "@type": "Concept",
                   "prefLabel": "Poke",
                   "altLabel": "Phytolacca americana",
-                },{
+                },
+                {
                   "@id": "Radicchio",
                   "@type": "Concept",
                   "prefLabel": "Radicchio",
                   "altLabel": "Cichorium intybus",
+                },
+                {
+                  "@id": "Rapini",
+                  "@type": "Concept",
+                  "prefLabel": "Rapini",
+                  "altLabel": "Brassica rapa rapa",
+                },
+                {
+                  "@id": "Sorrel",
+                  "@type": "Concept",
+                  "prefLabel": "Sorrel",
+                  "altLabel": "Rumex acetosa",
+                },
+                {
+                  "@id": "Spinach",
+                  "@type": "Concept",
+                  "prefLabel": "Spinach",
+                  "altLabel": "Spinacia oleracea",
+                },
+                {
+                  "@id": "Swisschard",
+                  "@type": "Concept",
+                  "prefLabel": "Swiss chard",
+                  "altLabel": "Beta vulgaris cicla (flavescens)",
+                },{
+                  "@id": "Turnip",
+                  "@type": "Concept",
+                  "prefLabel": "Turnip",
+                  "altLabel": "Brassica rapa (rapifera)",
                 },
             },
             {
