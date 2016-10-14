@@ -1,406 +1,322 @@
 {
-  "@context": {
-    "@vocab": "http://www.w3.org/2004/02/skos/core#",
-    "title": "http://purl.org/dc/terms/title",
-    "creator": "http://purl.org/dc/terms/creator",
-    "@base": "http://www.publicfare.org/def/food/"
-  },
-  "@id": "",
-  "@type": "ConceptScheme",
-  "title": "Public Fare Food Terms",
-  "creator": [
-    "https://github.com/trevormunoz",
-    "https://github.com/katierawson"
-  ],
-  "hasTopConcept": [
-    {
-      "@id": "Food",
-      "@type": "Concept",
-      "prefLabel": "Foods",
-      "narrower": [
-        {
-          "@id": "Animal",
-          "@type": "Concept",
-          "prefLabel": "Animal Foods",
-          "scopeNote": "Used to designate the type of animal that is the source of a food",
-          "narrower": [
-            {
-              "@id": "Meat",
-              "@type": "Concept",
-              "prefLabel": "Meat"
-            },
-            {
-              "@id": "Poultry",
-              "@type": "Concept",
-              "prefLabel": "Poultry"
-            },
-            {
-              "@id": "Seafood",
-              "@type": "Concept",
-              "prefLabel": "Seafood"
-            },
-            {
-              "@id": "Insect",
-              "@type": "Concept",
-              "prefLabel": "Insect"
-            }
-          ]
-        },
-        {
-          "@id": "Plant",
-          "@type": "Concept",
-          "prefLabel": "Plant Foods",
-          "narrower": [
-            {
-              "@id": "Vegetable",
-              "@type": "Concept",
-              "prefLabel": "Vegetables",
-              "narrower": [
-                {
-                  "@id": "Arugula",
-                  "@type": "Concept",
-                  "prefLabel": "Arugula",
-                  "altLabel": "Eruca sativa",
-                },
-                {
-                  "@id": "Beet",
-                  "@type": "Concept",
-                  "prefLabel": "Beet",
-                  "altLabel": "Beta vulgaris vulgaris",
-                },
-                {
-                  "@id": "Bokchoy",
-                  "@type": "Concept",
-                  "prefLabel": "Bok choy",
-                  "altLabel": "Brassica rapa (chinensis)",
-                  "altLabel": "Bok choi",
-                  "altLabel": "Pak choy"
-                },
-                {
-                  "@id": "Broccoli",
-                  "@type": "Concept",
-                  "prefLabel": "Broccoli",
-                  "altLabel": "Brassica oleracea",
-                },
-                {
-                  "@id": "Brusselssprouts",
-                  "@type": "Concept",
-                  "prefLabel": "Brussels sprouts",
-                  "altLabel": "Brassica oleracea (gemmifera)",
-                },
-                {
-                  "@id": "Cabbage",
-                  "@type": "Concept",
-                  "prefLabel": "Cabbage",
-                  "altLabel": "Brassica oleracea (capitata)",
-                },
-                {
-                  "@id": "Celery",
-                  "@type": "Concept",
-                  "prefLabel": "Celery",
-                  "altLabel": "Apium graveolens",
-                },
-                {
-                  "@id": "Collardgreens",
-                  "@type": "Concept",
-                  "prefLabel": "Collard greens",
-                  "altLabel": "Brassica oleracea",
-                },
-               {
-                  "@id": "Endive",
-                  "@type": "Concept",
-                  "prefLabel": "Endive",
-                  "altLabel": "Cichorium endivia",
-                },
-                {
-                  "@id": "Plantain",
-                  "@type": "Concept",
-                  "prefLabel": "Plantain",
-                  "altLabel": "Plantago major",
-                },
-                {
-                  "@id": "Kale",
-                  "@type": "Concept",
-                  "prefLabel": "Kale",
-                  "altLabel": "Brassica oleracea (acephala)",
-                },
-                {
-                  "@id": "Lettuce",
-                  "@type": "Concept",
-                  "prefLabel": "Lettuce",
-                  "altLabel": "Lactuca sativa",
-                },
-                {
-                  "@id": "Mustard",
-                  "@type": "Concept",
-                  "prefLabel": "Mustard",
-                  "altLabel": "Sinapis alba",
-                },
-                {
-                  "@id": "Lettuce",
-                  "@type": "Concept",
-                  "prefLabel": "Lettuce",
-                  "altLabel": "Lactuca sativa",
-                },
-                {
-                  "@id": "Pea",
-                  "@type": "Concept",
-                  "prefLabel": "Pea",
-                  "altLabel": "Pisum sativum",
-                },
-                {
-                  "@id": "Poke",
-                  "@type": "Concept",
-                  "prefLabel": "Poke",
-                  "altLabel": "Phytolacca americana",
-                },
-                {
-                  "@id": "Radicchio",
-                  "@type": "Concept",
-                  "prefLabel": "Radicchio",
-                  "altLabel": "Cichorium intybus",
-                },
-                {
-                  "@id": "Rapini",
-                  "@type": "Concept",
-                  "prefLabel": "Rapini",
-                  "altLabel": "Brassica rapa rapa",
-                },
-                {
-                  "@id": "Sorrel",
-                  "@type": "Concept",
-                  "prefLabel": "Sorrel",
-                  "altLabel": "Rumex acetosa",
-                },
-                {
-                  "@id": "Spinach",
-                  "@type": "Concept",
-                  "prefLabel": "Spinach",
-                  "altLabel": "Spinacia oleracea",
-                },
-                {
-                  "@id": "Swisschard",
-                  "@type": "Concept",
-                  "prefLabel": "Swiss chard",
-                  "altLabel": "Beta vulgaris cicla (flavescens)",
-                },{
-                  "@id": "Turnip",
-                  "@type": "Concept",
-                  "prefLabel": "Turnip",
-                  "altLabel": "Brassica rapa (rapifera)",
-                },
-            },
-            {
-              "@id": "Fruit",
-              "@type": "Concept",
-              "prefLabel": "Fruits"
-            },
-            {
-              "@id": "Grain",
-              "@type": "Concept",
-              "prefLabel": "Grains"
-            }
-          ]
-        },
-        {
-          "@id": "Part",
-          "@type": "Concept",
-          "prefLabel": "Parts of Foods",
-          "definition": "Foods defined primarily by their mereological relationships",
-          "example": "eggs, roots, cuts of meat",
-          "narrower": [
-            {
-              "@id": "Milk",
-              "@type": "Concept",
-              "prefLabel": "Milk"
-            },
-            {
-              "@id": "Egg",
-              "@type": "Concept",
-              "prefLabel": "Egg"
-            },
-            {
-              "@id": "Flesh",
-              "@type": "Concept",
-              "prefLabel": "Flesh"
-            },
-            {
-              "@id": "Offal",
-              "@type": "Concept",
-              "prefLabel": "Offal"
-            },
-            {
-              "@id": "Bone",
-              "@type": "Concept",
-              "prefLabel": "Bone"
-            },
-            {
-              "@id": "Seed",
-              "@type": "Concept",
-              "prefLabel": "Seed"
-            },
-            {
-              "@id": "Root",
-              "@type": "Concept",
-              "prefLabel": "Root"
-            },
-            {
-              "@id": "Shoot",
-              "@type": "Concept",
-              "prefLabel": "Shoot"
-            },
-            {
-              "@id": "Flower",
-              "@type": "Concept",
-              "prefLabel": "Flower"
-            },
-            {
-              "@id": "Greens",
-              "@type": "Concept",
-              "prefLabel": "Greens",
-              "altLabel": "Leaves"
-            }
-          ]
-        },
-        {
-          "@id": "PreparedFood",
-          "@type": "Concept",
-          "prefLabel": "Prepared Foods",
-          "narrower": [
-            {
-              "@id": "Appetizer",
-              "@type": "Concept",
-              "prefLabel": "Appetizer"
-            },
-            {
-              "@id": "Soup",
-              "@type": "Concept",
-              "prefLabel": "Soup"
-            },
-            {
-              "@id": "Aspic",
-              "@type": "Concept",
-              "prefLabel": "Aspic"
-            }
-            {
-              "@id": "Salad",
-              "@type": "Concept",
-              "prefLabel": "Salad"
-            },
-            {
-              "@id": "Pasta",
-              "@type": "Concept",
-              "prefLabel": "Pasta"
-            },
-            {
-              "@id": "Sandwich",
-              "@type": "Concept",
-              "prefLabel": "Sandwich"
-            },
-            {
-              "@id": "Sauce",
-              "@type": "Concept",
-              "prefLabel": "Sauce"
-            },
-            {
-              "@id": "PreservedFood",
-              "@type": "Concept",
-              "prefLabel": "Preserved Food"
-            },
-            {
-              "@id": "Stuffing",
-              "@type": "Concept",
-              "prefLabel": "Stuffing"
-            },
-            {
-              "@id": "Charcuterie",
-              "@type": "Concept",
-              "prefLabel": "Charcuterie"
-            },
-            {
-              "@id": "Bread",
-              "@type": "Concept",
-              "prefLabel": "Bread"
-            },
-            {
-              "@id": "Dessert",
-              "@type": "Concept",
-              "prefLabel": "Dessert",
-              "narrower": [
-                {
-                  "@id": "Confectionery",
-                  "@type": "Concept",
-                  "prefLabel": "Confectionery"
-                },
-                {
-                  "@id": "Pudding",
-                  "@type": "Concept",
-                  "prefLabel": "Pudding"
-                },
-                {
-                  "@id": "Pastry",
-                  "@type": "Concept",
-                  "prefLabel": "Pastry"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@id": "Beverage",
-          "@type": "Concept",
-          "prefLabel": "Beverages",
-          "narrower": [
-            {
-              "@id": "AlcoholicBeverage",
-              "@type": "Concept",
-              "prefLabel": "Alcoholic Beverage",
-              "narrower": [
-                {
-                  "@id": "Beer",
-                  "@type": "Concept",
-                  "prefLabel": "Beer"
-                },
-                {
-                  "@id": "Wine",
-                  "@type": "Concept",
-                  "prefLabel": "Wine"
-                },
-                {
-                  "@id": "Liquor",
-                  "@type": "Concept",
-                  "prefLabel": "Liquor"
-                }
-              ]
-            },
-            {
-              "@id": "Water",
-              "@type": "Concept",
-              "prefLabel": "Water"
-            },
-            {
-              "@id": "SoftDrink",
-              "@type": "Concept",
-              "prefLabel": "Soft Drink"
-            },
-            {
-              "@id": "Juice",
-              "@type": "Concept",
-              "prefLabel": "Juice"
-            },
-            {
-              "@id": "Coffee",
-              "@type": "Concept",
-              "prefLabel": "Coffee"
-            },
-            {
-              "@id": "Tea",
-              "@type": "Concept",
-              "prefLabel": "Tea"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    "@context": {
+        "@vocab": "http://www.w3.org/2004/02/skos/core#",
+        "title": "http://purl.org/dc/terms/title",
+        "creator": "http://purl.org/dc/terms/creator",
+        "@base": "http://www.publicfare.org/def/food/"
+    },
+    "@id": "",
+    "@type": "ConceptScheme",
+    "title": "Public Fare Food Terms",
+    "creator": [
+        "https://github.com/trevormunoz",
+        "https://github.com/katierawson"
+    ],
+    "hasTopConcept": [{
+        "@id": "Food",
+        "@type": "Concept",
+        "prefLabel": "Foods",
+        "narrower": [{
+            "@id": "Animal",
+            "@type": "Concept",
+            "prefLabel": "Animal Foods",
+            "scopeNote": "Used to designate the type of animal that is the source of a food",
+            "narrower": [{
+                "@id": "Meat",
+                "@type": "Concept",
+                "prefLabel": "Meat"
+            }, {
+                "@id": "Poultry",
+                "@type": "Concept",
+                "prefLabel": "Poultry"
+            }, {
+                "@id": "Seafood",
+                "@type": "Concept",
+                "prefLabel": "Seafood"
+            }, {
+                "@id": "Insect",
+                "@type": "Concept",
+                "prefLabel": "Insect"
+            }]
+        }, {
+            "@id": "Plant",
+            "@type": "Concept",
+            "prefLabel": "Plant Foods",
+            "narrower": [{
+                "@id": "Vegetable",
+                "@type": "Concept",
+                "prefLabel": "Vegetables",
+                "narrower": [{
+                    "@id": "Arugula",
+                    "@type": "Concept",
+                    "prefLabel": "Arugula",
+                    "altLabel": "Eruca sativa"
+                }, {
+                    "@id": "Beet",
+                    "@type": "Concept",
+                    "prefLabel": "Beet",
+                    "altLabel": "Beta vulgaris vulgaris"
+                }, {
+                    "@id": "Bok Choy",
+                    "@type": "Concept",
+                    "prefLabel": "Bok choy",
+                    "altLabel": "Brassica rapa (chinensis)"
+                }, {
+                    "@id": "Broccoli",
+                    "@type": "Concept",
+                    "prefLabel": "Broccoli",
+                    "altLabel": "Brassica oleracea"
+                }, {
+                    "@id": "Brussels Sprouts",
+                    "@type": "Concept",
+                    "prefLabel": "Brussels sprouts",
+                    "altLabel": "Brassica oleracea (gemmifera)"
+                }, {
+                    "@id": "Cabbage",
+                    "@type": "Concept",
+                    "prefLabel": "Cabbage",
+                    "altLabel": "Brassica oleracea (capitata)"
+                }, {
+                    "@id": "Celery",
+                    "@type": "Concept",
+                    "prefLabel": "Celery",
+                    "altLabel": "Apium graveolens"
+                }, {
+                    "@id": "Collard Greens",
+                    "@type": "Concept",
+                    "prefLabel": "Collard greens",
+                    "altLabel": "Brassica oleracea"
+                }, {
+                    "@id": "Endive",
+                    "@type": "Concept",
+                    "prefLabel": "Endive",
+                    "altLabel": "Cichorium endivia"
+                }, {
+                    "@id": "Plantain",
+                    "@type": "Concept",
+                    "prefLabel": "Plantain",
+                    "altLabel": "Plantago major"
+                }, {
+                    "@id": "Kale",
+                    "@type": "Concept",
+                    "prefLabel": "Kale",
+                    "altLabel": "Brassica oleracea (acephala)"
+                }, {
+                    "@id": "Lettuce",
+                    "@type": "Concept",
+                    "prefLabel": "Lettuce",
+                    "altLabel": "Lactuca sativa"
+                }, {
+                    "@id": "Mustard",
+                    "@type": "Concept",
+                    "prefLabel": "Mustard",
+                    "altLabel": "Sinapis alba"
+                }, {
+                    "@id": "Pea",
+                    "@type": "Concept",
+                    "prefLabel": "Pea",
+                    "altLabel": "Pisum sativum"
+                }, {
+                    "@id": "Poke",
+                    "@type": "Concept",
+                    "prefLabel": "Poke",
+                    "altLabel": "Phytolacca americana"
+                }, {
+                    "@id": "Radicchio",
+                    "@type": "Concept",
+                    "prefLabel": "Radicchio",
+                    "altLabel": "Cichorium intybus"
+                }, {
+                    "@id": "Rapini",
+                    "@type": "Concept",
+                    "prefLabel": "Rapini",
+                    "altLabel": "Brassica rapa rapa"
+                }, {
+                    "@id": "Sorrel",
+                    "@type": "Concept",
+                    "prefLabel": "Sorrel",
+                    "altLabel": "Rumex acetosa"
+                }, {
+                    "@id": "Spinach",
+                    "@type": "Concept",
+                    "prefLabel": "Spinach",
+                    "altLabel": "Spinacia oleracea"
+                }, {
+                    "@id": "Swiss Chard",
+                    "@type": "Concept",
+                    "prefLabel": "Swiss chard",
+                    "altLabel": "Beta vulgaris cicla (flavescens)"
+                }, {
+                    "@id": "Turnip",
+                    "@type": "Concept",
+                    "prefLabel": "Turnip",
+                    "altLabel": "Brassica rapa (rapifera)"
+                }]
+            }, {
+                "@id": "Fruit",
+                "@type": "Concept",
+                "prefLabel": "Fruits"
+            }, {
+                "@id": "Grain",
+                "@type": "Concept",
+                "prefLabel": "Grains"
+            }]
+        }, {
+            "@id": "Part",
+            "@type": "Concept",
+            "prefLabel": "Parts of Foods",
+            "definition": "Foods defined primarily by their mereological relationships",
+            "example": "eggs, roots, cuts of meat",
+            "narrower": [{
+                "@id": "Milk",
+                "@type": "Concept",
+                "prefLabel": "Milk"
+            }, {
+                "@id": "Egg",
+                "@type": "Concept",
+                "prefLabel": "Egg"
+            }, {
+                "@id": "Flesh",
+                "@type": "Concept",
+                "prefLabel": "Flesh"
+            }, {
+                "@id": "Offal",
+                "@type": "Concept",
+                "prefLabel": "Offal"
+            }, {
+                "@id": "Bone",
+                "@type": "Concept",
+                "prefLabel": "Bone"
+            }, {
+                "@id": "Seed",
+                "@type": "Concept",
+                "prefLabel": "Seed"
+            }, {
+                "@id": "Root",
+                "@type": "Concept",
+                "prefLabel": "Root"
+            }, {
+                "@id": "Shoot",
+                "@type": "Concept",
+                "prefLabel": "Shoot"
+            }, {
+                "@id": "Flower",
+                "@type": "Concept",
+                "prefLabel": "Flower"
+            }, {
+                "@id": "Greens",
+                "@type": "Concept",
+                "prefLabel": "Greens",
+                "altLabel": "Leaves"
+            }]
+        }, {
+            "@id": "PreparedFood",
+            "@type": "Concept",
+            "prefLabel": "Prepared Foods",
+            "narrower": [{
+                "@id": "Appetizer",
+                "@type": "Concept",
+                "prefLabel": "Appetizer"
+            }, {
+                "@id": "Soup",
+                "@type": "Concept",
+                "prefLabel": "Soup"
+            }, {
+                "@id": "Aspic",
+                "@type": "Concept",
+                "prefLabel": "Aspic"
+            }, {
+                "@id": "Salad",
+                "@type": "Concept",
+                "prefLabel": "Salad"
+            }, {
+                "@id": "Pasta",
+                "@type": "Concept",
+                "prefLabel": "Pasta"
+            }, {
+                "@id": "Sandwich",
+                "@type": "Concept",
+                "prefLabel": "Sandwich"
+            }, {
+                "@id": "Sauce",
+                "@type": "Concept",
+                "prefLabel": "Sauce"
+            }, {
+                "@id": "PreservedFood",
+                "@type": "Concept",
+                "prefLabel": "Preserved Food"
+            }, {
+                "@id": "Stuffing",
+                "@type": "Concept",
+                "prefLabel": "Stuffing"
+            }, {
+                "@id": "Charcuterie",
+                "@type": "Concept",
+                "prefLabel": "Charcuterie"
+            }, {
+                "@id": "Bread",
+                "@type": "Concept",
+                "prefLabel": "Bread"
+            }, {
+                "@id": "Dessert",
+                "@type": "Concept",
+                "prefLabel": "Dessert",
+                "narrower": [{
+                    "@id": "Confectionery",
+                    "@type": "Concept",
+                    "prefLabel": "Confectionery"
+                }, {
+                    "@id": "Pudding",
+                    "@type": "Concept",
+                    "prefLabel": "Pudding"
+                }, {
+                    "@id": "Pastry",
+                    "@type": "Concept",
+                    "prefLabel": "Pastry"
+                }]
+            }]
+        }, {
+            "@id": "Beverage",
+            "@type": "Concept",
+            "prefLabel": "Beverages",
+            "narrower": [{
+                "@id": "AlcoholicBeverage",
+                "@type": "Concept",
+                "prefLabel": "Alcoholic Beverage",
+                "narrower": [{
+                    "@id": "Beer",
+                    "@type": "Concept",
+                    "prefLabel": "Beer"
+                }, {
+                    "@id": "Wine",
+                    "@type": "Concept",
+                    "prefLabel": "Wine"
+                }, {
+                    "@id": "Liquor",
+                    "@type": "Concept",
+                    "prefLabel": "Liquor"
+                }]
+            }, {
+                "@id": "Water",
+                "@type": "Concept",
+                "prefLabel": "Water"
+            }, {
+                "@id": "SoftDrink",
+                "@type": "Concept",
+                "prefLabel": "Soft Drink"
+            }, {
+                "@id": "Juice",
+                "@type": "Concept",
+                "prefLabel": "Juice"
+            }, {
+                "@id": "Coffee",
+                "@type": "Concept",
+                "prefLabel": "Coffee"
+            }, {
+                "@id": "Tea",
+                "@type": "Concept",
+                "prefLabel": "Tea"
+            }]
+        }]
+    }]
 }
