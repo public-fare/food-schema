@@ -335,8 +335,7 @@
                 {
                   "@id": "Pudding",
                   "@type": "Concept",
-                  "prefLabel": "Pudding",
-                  "editorialNote": "Subsume trifles here?"
+                  "prefLabel": "Pudding"
                 },
                 {
                   "@id": "Pastry",
