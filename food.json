@@ -57,7 +57,7 @@
                     "prefLabel": "Beet",
                     "altLabel": "Beta vulgaris vulgaris"
                 }, {
-                    "@id": "Bok Choy",
+                    "@id": "BokChoy",
                     "@type": "Concept",
                     "prefLabel": "Bok choy",
                     "altLabel": "Brassica rapa (chinensis)"
@@ -67,7 +67,7 @@
                     "prefLabel": "Broccoli",
                     "altLabel": "Brassica oleracea"
                 }, {
-                    "@id": "Brussels Sprouts",
+                    "@id": "BrusselsSprouts",
                     "@type": "Concept",
                     "prefLabel": "Brussels sprouts",
                     "altLabel": "Brassica oleracea (gemmifera)"
@@ -82,7 +82,7 @@
                     "prefLabel": "Celery",
                     "altLabel": "Apium graveolens"
                 }, {
-                    "@id": "Collard Greens",
+                    "@id": "CollardGreens",
                     "@type": "Concept",
                     "prefLabel": "Collard greens",
                     "altLabel": "Brassica oleracea"
@@ -142,7 +142,7 @@
                     "prefLabel": "Spinach",
                     "altLabel": "Spinacia oleracea"
                 }, {
-                    "@id": "Swiss Chard",
+                    "@id": "SwissChard",
                     "@type": "Concept",
                     "prefLabel": "Swiss chard",
                     "altLabel": "Beta vulgaris cicla (flavescens)"
